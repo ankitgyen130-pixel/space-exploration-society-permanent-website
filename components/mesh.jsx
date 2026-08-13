@@ -25,7 +25,7 @@ function Mesh(){
         const tl = gsap.timeline({
             scrollTrigger:{
                 trigger:"#section-1",
-                endTrigger:"#section-3",
+                endTrigger:"#section-4",
                 start:"top top",
                 end:"bottom bottom",
                 scrub: true

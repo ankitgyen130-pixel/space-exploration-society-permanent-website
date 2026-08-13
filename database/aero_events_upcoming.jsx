@@ -1,4 +1,4 @@
-const upcoming_events = [
+const aero_events = [
     {
         date: "Aug 29, Sept 11",
         title: "Introductory Sessions",
@@ -62,4 +62,4 @@ const upcoming_events = [
     }
 ];
 
-export default upcoming_events;
+export default aero_events;

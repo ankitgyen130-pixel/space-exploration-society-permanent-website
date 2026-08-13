@@ -1,4 +1,3 @@
-
 function Events_cards(props){
     return(
         <div className="event_card">

@@ -5,6 +5,7 @@ import Mesh from "./mesh";
 import Divisions from "./divisions";
 import Event_list from "./event_list";
 import Home from "./middle";
+import Projects from "./projects_list";
 
 function Hero(){
     return (
@@ -35,6 +36,10 @@ function Hero(){
 
             <section id="section-3">
                 <div id="EVENTS"><Event_list /></div>
+            </section>
+
+            <section id="section-4">
+                <div id="PROJECTS"><Projects /></div>
             </section>
         </>
     )
