@@ -19,6 +19,7 @@ body{
 *::-webkit-scrollbar {
   width: 10px; /* Change width */
   height: 8px; /* For horizontal scrollbar */
+  margin-top: 2em;
 }
 
 *::-webkit-scrollbar-track {
@@ -36,7 +37,7 @@ body{
 }   
 
 section{
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
   position: relative;
   z-index: 2;
@@ -46,8 +47,7 @@ section{
   nav{
     margin: 2em auto;
     max-height: 4em;
-    width: 90%;
-    min-width: 440px;
+    width: 95%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -83,13 +83,12 @@ section{
       width: 50%;
       h1{
         color: rgba(255, 255, 255, 0.584);
-        font-size: 5rem;
-        width: 450px;
+        font-size: clamp(2.5rem, 8vw, 5rem);
         padding-top: 1em;
         padding-bottom: 0.3em;
       }
       p{
-        font-size: 1.5rem;
+        font-size: clamp(1rem, 8vw, 1.5rem);
         color: rgba(255, 255, 255, 0.584);
         font-weight: bolder;
       }
@@ -106,9 +105,9 @@ section{
     margin-top: 50px;
     padding-inline: 50px;
     padding-block: 80px;
-    font-size: 2rem;
+    font-size: clamp(1rem, 8vw, 2rem);
     font-weight: 600;
-    min-width: 890px;
+    width: 100%;
   }
 }
 
@@ -154,7 +153,7 @@ section{
     width: 6em;
     font-size: 2.5rem;
     border-radius: 3em;
-    margin-top: 3em;
+    margin-top: 2em;
     background-color: rgba(255, 255, 255, 0);
     border: 2px solid #ffc955;
     color: #ffc955;
@@ -180,8 +179,7 @@ section{
     display: flex;
     flex-direction: column;
     gap:4em;
-    min-width: 65vw;
-    max-width: 85%;
+    width: 80%;
     margin: 0 auto;
     margin-bottom: 100px;
     list-style: none;
@@ -192,7 +190,7 @@ section{
     opacity: 0.6;
     transition: all 0.3s ease-in-out;
     .event_title{
-      font-size: 5em;
+      font-size: clamp(2.5em, 8vw, 4.5em);
       font-weight: lighter;
       line-height: 1;
     }
@@ -200,9 +198,6 @@ section{
       min-width: 250px;
       padding-top: 0.6em;
       color: #ffc955;
-    }
-    .event_title{
-      width: 60%;
     }
   }
   .event_card:hover{
@@ -222,7 +217,8 @@ section{
   h5{
     text-align: center;
     letter-spacing: 1em;
-    margin-block: 2em;
+    margin-top: 5em;
+    margin-bottom: 1.5em
   }
   .container{
     width: 100%;
@@ -236,8 +232,6 @@ section{
     gap: 4em;
     width: max-content;
     list-style: none;
-    margin-top: 4em;
-    margin-bottom: 1em;
   }
   .project_card{
     background-color: rgba(255, 255, 255, 0.096);
@@ -260,4 +254,68 @@ section{
   .project_title{
     text-align: center;
   }
+}
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+    #section-1 nav {
+        width: 95%;
+        min-width: 0;
+        margin: 1rem auto;
+    }
+
+    #section-1 nav img {
+        height: 4rem;
+    }
+
+    #section-1 nav div {
+        width: auto;
+        min-width: 0;
+    }
+
+    #section-1 nav div button {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    #section-2 #divisions {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    #section-2 #divisions div {
+        width: 90%;
+        min-width: 0;
+    }
+
+    #section-2 #divisions div h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 800px) {
+    #section-3 .event_card {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    #section-3 .event_date {
+      width: 100%;  
+      font-size: 1rem;
+      text-align: center;
+    }
+
+    #section-3 .event_title {
+      width: 100%;
+      font-size: 2rem;
+      text-align: center;
+    }
 }

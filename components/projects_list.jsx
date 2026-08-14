@@ -6,9 +6,8 @@ function Projects(){
     return(
         <>
             <h2>PROJECTS</h2>
-
-            <div className="container">
             <h5>AEROMODELLING & AEROSPACE</h5>
+            <div className="container">
                 <ul id="aero_projects">
                     {
                         aero_projects.map((project,index)=>(
@@ -23,9 +22,8 @@ function Projects(){
                     
                 </ul>
             </div>
-
+            <h5>ASTRONOMY & ASTROPHYSICS</h5>
             <div className="container">
-                <h5>ASTRONOMY & ASTROPHYSICS</h5>
                 <ul id="astro_projects">
                     {
                         astro_projects.map((project,index)=>(
