@@ -23,24 +23,27 @@ function Hero(){
 
 
              {/* section ids are used in gsap timeline in mesh.jsx */}
-            <section id="section-1">
-                <Navbar />
-                <div id="HOME"><Home /></div>
-            </section>
+            <Navbar />
+            <div id="contents">
+                <section id="section-1">
+
+                    <div id="HOME"><Home /></div>
+                </section>
 
 
-            <section id="section-2">
-                <div id="ABOUT"><Divisions /></div>
-            </section>
+                <section id="section-2">
+                    <div id="ABOUT"><Divisions /></div>
+                </section>
 
 
-            <section id="section-3">
-                <div id="EVENTS"><Event_list /></div>
-            </section>
+                <section id="section-3">
+                    <div id="EVENTS"><Event_list /></div>
+                </section>
 
-            <section id="section-4">
-                <div id="PROJECTS"><Projects /></div>
-            </section>
+                <section id="section-4">
+                    <div id="PROJECTS"><Projects /></div>
+                </section>
+            </div>
         </>
     )
 }

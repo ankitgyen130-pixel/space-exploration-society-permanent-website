@@ -11,7 +11,7 @@ function Home(){
                 endTrigger:"#end",
                 start:"top 40%",
                 end: "bottom 35%",
-                scrub: true
+                scrub: true,
             }      
         })
         tl

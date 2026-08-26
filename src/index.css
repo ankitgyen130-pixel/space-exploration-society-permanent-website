@@ -42,40 +42,84 @@ section{
   position: relative;
   z-index: 2;
 }
+#contents{
+  position: relative;
+  top:120px;
 
-#section-1{
-  nav{
-    margin: 2em auto;
-    max-height: 4em;
-    width: 95%;
+}
+nav{
+  position: fixed;
+  z-index: 3;
+  top: 0.3em;
+  left: 2.5%;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.134);
+  border-right: 3px solid rgba(255, 255, 255, 0.134);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.134);
+  border-right: 1px solid rgba(255, 255, 255, 0.134);
+  box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.159);
+
+  backdrop-filter: blur(10px);
+
+  img{
+    height: 7em;
+  }
+  #nav-link{
+    font-size: 1.25rem;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    img{
-      height: 7em;
+    gap:2rem;
+    button{
+      color: rgba(255, 255, 255, 0.584);
+      background-color: rgba(255, 255, 255, 0);
+      font-size: 1.2rem;
+      height: 3em;
+      border: none;
+      transition: all 0.3s ease-in-out;
     }
-    div{
-      font-size: 1.25rem;
-      display: flex;
-      width: 900px;
-      min-width: 650px;
-      justify-content: flex-end;
-      align-items: center;
-      button{
-        margin-right: 2rem;
-        color: rgba(255, 255, 255, 0.584);
-        background-color: rgba(255, 255, 255, 0);
-        font-size: 1.2rem;
-        height: 3em;
-        border: none;
-      }
-    }
-    svg{
-      width: 40px;
-      min-width: 40px;
+    button:hover{
+      color:#ffc955
     }
   }
+  svg{
+    display: none;
+    width: 40px;
+    min-width: 40px;
+  }
+}
+@media (max-width: 800px) {
+    nav {
+        width: 95%;
+        flex-direction: row;
+        align-items: center;
+        img {
+          height: 4rem;
+        }
+        #nav-link{
+          display:none;
+        }
+    }
+    #open {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        #nav-link{
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+    }
+    nav svg{
+      display: block;
+    }
+}
 
+
+#section-1{
   #middle{
     display: flex;
     #left,
@@ -262,26 +306,7 @@ section{
 
 
 
-@media (max-width: 800px) {
-    #section-1 nav {
-        width: 95%;
-        min-width: 0;
-        margin: 1rem auto;
-    }
 
-    #section-1 nav img {
-        height: 4rem;
-    }
-
-    #section-1 nav div {
-        width: auto;
-        min-width: 0;
-    }
-
-    #section-1 nav div button {
-        display: none;
-    }
-}
 
 @media (max-width: 800px) {
     #section-2 #divisions {
