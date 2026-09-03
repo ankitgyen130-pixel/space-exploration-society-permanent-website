@@ -1,0 +1,69 @@
+#project_list_section{
+*{
+  color: rgba(255, 255, 255, 0.584);
+}
+h2{
+  text-align: center;
+  letter-spacing: 1em;
+  margin-block: 2em;
+}
+h5{
+  text-align: center;
+  letter-spacing: 1em;
+  margin-top: 5em;
+  margin-bottom: 1.5em
+}
+.container{
+  width: 100%;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  margin-bottom: 2em;
+}
+#aero_projects,
+#astro_projects{
+  display: flex;
+  gap: 4em;
+  width: max-content;
+  list-style: none;
+}
+.project_card{
+  background-color: rgba(255, 255, 255, 0.096);
+  padding-block:1.5em ;
+  padding-inline: 1.5em;
+  height: 15em;
+  max-width: 30em;
+  opacity: 0.6;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10%;
+}
+.project_card:hover{
+  opacity: 1;
+}
+.project_date{
+  text-align: center;
+  color: #ffc955;
+  margin-bottom: 2em;
+}
+.project_title{
+  text-align: center;
+}
+}
+@media (max-width: 800px) {
+    .event_card {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .event_date {
+      width: 100%;  
+      font-size: 1rem;
+      text-align: center;
+    }
+
+    .event_title {
+      width: 100%;
+      font-size: 2rem;
+      text-align: center;
+    }
+}

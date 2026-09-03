@@ -1,11 +1,12 @@
 import { Canvas } from "@react-three/fiber"
-
-import Navbar from "./navbar";
+import Navbar from "./navbar/navbar";
 import Mesh from "./mesh";
-import Divisions from "./divisions";
-import Event_list from "./event_list";
-import Home from "./middle";
-import Projects from "./projects_list";
+import Divisions from "./divisions/divisions.jsx";
+import Event_list from "./events/event_list.jsx";
+import Home from "./home/home.jsx";
+import Projects from "./projects/projects_list.jsx";
+import Links from "./links/links.jsx";
+import Join from "./links/join";
 
 function Hero(){
     return (
@@ -26,13 +27,15 @@ function Hero(){
             <Navbar />
             <div id="contents">
                 <section id="section-1">
-
                     <div id="HOME"><Home /></div>
                 </section>
 
 
                 <section id="section-2">
-                    <div id="ABOUT"><Divisions /></div>
+                    <div id="ABOUT">
+                        <Divisions />
+                        <Join />
+                    </div>
                 </section>
 
 
@@ -42,6 +45,10 @@ function Hero(){
 
                 <section id="section-4">
                     <div id="PROJECTS"><Projects /></div>
+                </section>
+
+                <section id="section-5">
+                    <div id="CONTACT"><Links /></div>
                 </section>
             </div>
         </>

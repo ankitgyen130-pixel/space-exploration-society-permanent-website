@@ -1,0 +1,32 @@
+#title{
+  display: flex;
+  #left,
+  #right{
+    width: 50%;
+    #main_title{
+      color: rgba(255, 255, 255, 0.584);
+      font-size: clamp(2.5rem, 8vw, 5rem);
+      padding-top: 1em;
+      padding-bottom: 0.3em;
+    }
+    #subtitles{
+      font-size: clamp(1rem, 8vw, 1.5rem);
+      color: rgba(255, 255, 255, 0.584);
+      font-weight: bolder;
+    }
+  }
+}
+#description{
+  #line1,
+  #line2,
+  #line3{
+    color: rgba(0, 0, 0, 0);
+  }
+  text-align: center;
+  margin-top: 50px;
+  padding-inline: 50px;
+  padding-block: 80px;
+  font-size: clamp(1rem, 8vw, 2rem);
+  font-weight: 600;
+  width: 100%;
+}

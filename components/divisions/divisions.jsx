@@ -1,7 +1,7 @@
 function Divisions(){
     return(
-        <>
-            <p id="divisions_name">DIVISIONS</p>
+        <div id="division_section">
+            <h2 id="divisions_name">DIVISIONS</h2>
             <div id="divisions">
                 <div id="Aastronomy_astrophysics">
                         <h1>
@@ -20,8 +20,7 @@ function Divisions(){
                         </p>
                 </div>
             </div>
-            <button id="join_button">Join Us</button>
-        </>
+        </div>
     )
 }
 export default Divisions

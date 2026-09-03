@@ -7,8 +7,8 @@ function Home(){
     useGSAP(()=>{
         const tl=gsap.timeline({
             scrollTrigger:{
-                trigger:"#end",
-                endTrigger:"#end",
+                trigger:"#description",
+                endTrigger:"#description",
                 start:"top 40%",
                 end: "bottom 35%",
                 scrub: true,
@@ -44,22 +44,22 @@ function Home(){
         })
     },[])
     return(
-        <>
-            <div id="middle">
+        <div id='home__section'>
+            <div id="title">
                 <div id="left"></div>
                 <div id="right">
-                    <h1>
+                    <h1 id="main_title">
                         Explore Beyond The Horizon
                     </h1>
-                    <p id="heading_descriptionn">with Space Exploration Society, IIT Bhilai </p>
+                    <p id="subtitles">with Space Exploration Society, IIT Bhilai </p>
                 </div>
             </div>
-            <div id="end">
+            <div id="description">
                 <span id="line1">Humanity's Greatest Adventure Begins With Curiosity. <br/></span>
                 <span id="line2">Join us as we venture beyond Earth's skies and into the universe that has inspired humanity for millennia. </span>
                 <span id="line3" className="line">Every star we observe reminds us that exploration begins with a single question.</span>
             </div>
-        </>
+        </div>
     )
 }
 export default Home

@@ -1,0 +1,53 @@
+#division_section{
+    text-align: center;
+}
+#divisions_name{
+  margin-block: 2em;
+  text-align: center;
+  letter-spacing: 1em;
+  color: rgba(255, 255, 255, 0.584);
+}
+#divisions{
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+  div{
+    max-width: 520px;
+    min-width: 290px;
+    min-height: 300px;
+    text-align: center;
+    opacity: 0.6;
+    transition: all 0.3s ease-in-out;
+      h1{
+        font-size: 3.5em;
+        font-weight: 400;
+        color: #ffc955;
+        line-height: 1.2;
+      }
+      p{
+        margin-top: 2em;
+        font-size: 1.2em;
+        color: rgba(255, 255, 255, 0.584);
+        line-height: 1.5;
+      }
+  }
+  div:hover{
+    opacity: 1;
+  }
+}
+@media (max-width: 800px) {
+    #divisions {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    #divisions div {
+        width: 90%;
+        min-width: 0;
+    }
+
+    #divisions div h1 {
+        font-size: 2.5rem;
+    }
+}

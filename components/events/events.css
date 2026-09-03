@@ -1,0 +1,44 @@
+#events_list_section{
+  *{
+    color: rgba(255, 255, 255, 0.584);
+  }
+  h2{
+    text-align: center;
+    letter-spacing: 1em;
+    margin-block: 2em;
+  }
+  h5{
+    text-align: center;
+    letter-spacing: 1em;
+    margin-block: 2em;
+  }
+  #aero_events_list,
+  #astro_events_list{
+    display: flex;
+    flex-direction: column;
+    gap:4em;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    list-style: none;
+  }
+  .event_card{
+    display: flex;
+    gap: 2em;
+    opacity: 0.6;
+    transition: all 0.3s ease-in-out;
+    .event_title{
+      font-size: clamp(2.5em, 8vw, 4.5em);
+      font-weight: lighter;
+      line-height: 1;
+    }
+    .event_date{
+      min-width: 250px;
+      padding-top: 0.6em;
+      color: #ffc955;
+    }
+  }
+  .event_card:hover{
+    opacity: 1;
+  }
+}

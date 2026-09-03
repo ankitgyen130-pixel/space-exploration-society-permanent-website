@@ -1,10 +1,9 @@
-import aero_events from "/database/aero_events_upcoming.jsx"
-import astro_events from "../database/astro_events_upcoming.jsx";
-import Events_cards from "/components/events_cards.jsx";
+import aero_events from "../../database/aero_events_upcoming.jsx"
+import astro_events from "../../database/astro_events_upcoming.jsx";
+import Events_cards from "./events_cards.jsx";
 function Event_list(){
     return(
-        <>
-            <div>
+        <div id="events_list_section">
                 <h2 id="upcoming_event_title">UPCOMING EVENTS</h2>
                 <h5>AEROMODELLING & AEROSPACE</h5>
                 <ul id="aero_events_list">
@@ -32,8 +31,7 @@ function Event_list(){
                         )
                     })}
                 </ul>
-            </div>
-        </>
+        </div>
     )
 }
 export default Event_list
