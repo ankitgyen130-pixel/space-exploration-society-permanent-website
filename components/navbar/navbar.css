@@ -4,6 +4,7 @@ nav{
   top: 0.3em;
   left: 2.5%;
   width: 95%;
+  padding-inline: 2em;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -13,7 +14,7 @@ nav{
   border-bottom: 1px solid rgba(255, 255, 255, 0.134);
   border-right: 1px solid rgba(255, 255, 255, 0.134);
   box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.159);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(20px);
 
   img{
     height: 7em;

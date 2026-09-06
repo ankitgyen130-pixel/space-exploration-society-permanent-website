@@ -16,8 +16,13 @@
     min-width: 290px;
     min-height: 300px;
     text-align: center;
-    opacity: 0.6;
-    transition: all 0.3s ease-in-out;
+    backdrop-filter: blur(20px);
+    padding: 2em;
+    border-radius: 30px;
+    border-bottom: 5px solid rgba(255, 255, 255, 0.134);
+    border-right: 5px solid rgba(255, 255, 255, 0.134);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.134);
+    border-right: 1px solid rgba(255, 255, 255, 0.134);
       h1{
         font-size: 3.5em;
         font-weight: 400;
@@ -30,9 +35,6 @@
         color: rgba(255, 255, 255, 0.584);
         line-height: 1.5;
       }
-  }
-  div:hover{
-    opacity: 1;
   }
 }
 @media (max-width: 800px) {

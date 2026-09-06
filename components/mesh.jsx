@@ -9,7 +9,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger"
 gsap.registerPlugin(useGSAP,ScrollTrigger);
 
 function Mesh(){
-    const model=useGLTF("/models/blackholeS.glb");
+    const model=useGLTF("/models/blackhole.glb");
     const{camera}=useThree();
 
 

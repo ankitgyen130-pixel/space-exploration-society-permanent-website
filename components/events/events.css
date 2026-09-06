@@ -22,23 +22,91 @@
     margin-bottom: 100px;
     list-style: none;
   }
-  .event_card{
+.event_card {
     display: flex;
-    gap: 2em;
-    opacity: 0.6;
+    flex-direction: column;
+    opacity: 0.8;
     transition: all 0.3s ease-in-out;
-    .event_title{
-      font-size: clamp(2.5em, 8vw, 4.5em);
-      font-weight: lighter;
-      line-height: 1;
+    backdrop-filter: blur(20px);
+    padding: 2em;
+    border-radius: 30px;
+    border-bottom: 5px solid rgba(255, 255, 255, 0.134);
+    border-right: 5px solid rgba(255, 255, 255, 0.134);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.134);
+    border-right: 1px solid rgba(255, 255, 255, 0.134);
+    box-shadow: 0.5px 0.5px 1px 0 rgba(255, 255, 255, 0.255);
+
+    .event_card_button {
+        display: flex;
+        gap: 2em;
+        width: 100%;
+        border: none;
+        background: transparent;
+        color: inherit;
+        cursor: pointer;
+        text-align: left;
+
+        .event_title {
+            font-size: clamp(2.5em, 8vw, 4.5em);
+            font-weight: lighter;
+            line-height: 1;
+        }
+
+        .event_date {
+            min-width: 250px;
+            padding-top: 0.6em;
+            color: #ffc955;
+        }
     }
-    .event_date{
-      min-width: 250px;
-      padding-top: 0.6em;
-      color: #ffc955;
+
+    .event_description_close,
+    .event_description_open {
+        padding-left: 6em;
+        list-style: disc;
+
+        overflow: hidden;
+        max-height: 0;
+        opacity: 0;
+        transform: translateY(-10px);
+
+        transition:
+            max-height 0.5s ease,
+            opacity 0.3s ease,
+            transform 0.5s ease;
     }
-  }
+
+    .event_description_open {
+        max-height: 500px;
+        margin-top: 1em;
+        opacity: 1;
+        transform: translateY(0);
+
+        li {
+            font-size: clamp(0.7em, 2vw, 1em);
+            color: rgba(255, 255, 255, 0.584);
+        }
+    }
+}
   .event_card:hover{
     opacity: 1;
   }
+}
+@media (max-width: 800px) {
+    .event_card_button {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .event_date {
+      width: 100%;  
+      font-size: 1rem;
+      text-align: center;
+    }
+
+    .event_title {
+      width: 100%;
+      font-size: 2rem;
+      text-align: center;
+    }
 }

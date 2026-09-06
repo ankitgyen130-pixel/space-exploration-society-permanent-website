@@ -6,7 +6,8 @@ import Event_list from "./events/event_list.jsx";
 import Home from "./home/home.jsx";
 import Projects from "./projects/projects_list.jsx";
 import Links from "./links/links.jsx";
-import Join from "./links/join";
+import Join from "./links/join.jsx";
+import Members from "./teams/members.jsx";
 
 function Hero(){
     return (
@@ -48,6 +49,7 @@ function Hero(){
                 </section>
 
                 <section id="section-5">
+                    <div id="TEAM"><Members /></div>
                     <div id="CONTACT"><Links /></div>
                 </section>
             </div>

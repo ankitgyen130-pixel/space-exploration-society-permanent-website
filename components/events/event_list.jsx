@@ -13,6 +13,7 @@ function Event_list(){
                                 <Events_cards
                                 date={events.date}
                                 title={events.title}
+                                description={events.description}
                                 />
                             </li>
                         )
@@ -26,6 +27,7 @@ function Event_list(){
                                 <Events_cards
                                 date={events.date}
                                 title={events.title}
+                                description={events.description}
                                 />
                             </li>
                         )

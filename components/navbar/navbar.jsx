@@ -12,12 +12,12 @@ function Navbar(){
                 <nav id={menuOpen?"open":""}>
                     <img src="/images/ses_logo_final.png"/>
                     <div id="nav-link">
-                        <button onClick={()=>scrollToGo("HOME")}>   HOME</button>
-                        <button onClick={()=>scrollToGo("ABOUT")}>   ABOUT</button>
-                        <button onClick={()=>scrollToGo("EVENTS")}>   EVENTS</button>
-                        <button onClick={()=>scrollToGo("PROJECTS")}>   PROJECTS</button>
-                        <button onClick={()=>scrollToGo("TEAMS")}>   TEAMS</button>
-                        <button onClick={()=>scrollToGo("CONTACT")}>   CONTACT</button>
+                        <button onClick={()=>{scrollToGo("HOME");setMenuOpen(false)}}>   HOME</button>
+                        <button onClick={()=>{scrollToGo("ABOUT");setMenuOpen(false)}}>   ABOUT</button>
+                        <button onClick={()=>{scrollToGo("EVENTS");setMenuOpen(false)}}>   EVENTS</button>
+                        <button onClick={()=>{scrollToGo("PROJECTS");setMenuOpen(false)}}>   PROJECTS</button>
+                        <button onClick={()=>{scrollToGo("TEAM");setMenuOpen(false)}}>   TEAM</button>
+                        <button onClick={()=>{scrollToGo("CONTACT");setMenuOpen(false)}}>   CONTACT</button>
                     </div>
                     <svg
                     onClick={()=>setMenuOpen(!menuOpen)}
@@ -26,7 +26,7 @@ function Navbar(){
                     fill="#ffc955">
                         <path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/>
                     </svg>
-                </nav>
+                </nav> 
     )
 }
 export default Navbar

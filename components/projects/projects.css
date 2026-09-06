@@ -27,14 +27,19 @@ h5{
   list-style: none;
 }
 .project_card{
-  background-color: rgba(255, 255, 255, 0.096);
-  padding-block:1.5em ;
-  padding-inline: 1.5em;
+  background-color: rgba(255, 255, 255, 0.05);
+  opacity: 0.8;
+  margin-block: 0.5em;
   height: 15em;
   max-width: 30em;
-  opacity: 0.6;
   transition: all 0.3s ease-in-out;
-  border-radius: 10%;
+  backdrop-filter: blur(20px);
+  padding: 2em;
+  border-radius: 30px;
+  border-bottom: 5px solid rgba(255, 255, 255, 0.134);
+  border-right: 5px solid rgba(255, 255, 255, 0.134);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.134);
+  border-right: 1px solid rgba(255, 255, 255, 0.134);
 }
 .project_card:hover{
   opacity: 1;

@@ -1,0 +1,55 @@
+#members-section{
+    *{
+        color: rgba(255, 255, 255, 0.584);
+    }
+  h2{
+    text-align: center;
+    letter-spacing: 1em;
+    margin-block: 3em;
+  }
+  h5{
+    text-align: center;
+    letter-spacing: 1em;
+    margin-block: 2em;
+  }
+  #secretaries{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 900px;
+    margin-inline: auto;
+  }
+    #core-members{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+        gap: 1em;
+        list-style-type: none;
+    }
+    .member-card{
+        width: 190px;
+        height: 250px;
+        text-align: center;
+        backdrop-filter: blur(20px);
+        border-radius: 30px;
+        border-bottom: 5px solid rgba(255, 255, 255, 0.134);
+        border-right: 5px solid rgba(255, 255, 255, 0.134);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.134);
+        border-right: 1px solid rgba(255, 255, 255, 0.134);
+        img{
+            width: 80%;
+            aspect-ratio: 1;
+            border-radius: 30px;
+            object-fit: cover;
+            border: 5px solid #ffc955;
+        }
+        h3{
+            font-size: 1.4em;
+            color: #ffc955;
+            opacity: 0.6;
+        }
+        p{
+            font-size: 0.8em;
+            letter-spacing: 0.1em;
+        }
+    }
+}

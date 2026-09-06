@@ -9,8 +9,8 @@ function Home(){
             scrollTrigger:{
                 trigger:"#description",
                 endTrigger:"#description",
-                start:"top 40%",
-                end: "bottom 35%",
+                start:"top 50%",
+                end: "bottom 60%",
                 scrub: true,
             }      
         })
@@ -44,7 +44,7 @@ function Home(){
         })
     },[])
     return(
-        <div id='home__section'>
+        <div id='home_section'>
             <div id="title">
                 <div id="left"></div>
                 <div id="right">
