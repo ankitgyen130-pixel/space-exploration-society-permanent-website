@@ -45,7 +45,7 @@ nav{
 
 @media (max-width: 800px) {
     nav {
-        width: 90%;
+        max-width: 90%;
         flex-direction: row;
         align-items: center;
         img {
