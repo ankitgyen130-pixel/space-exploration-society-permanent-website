@@ -2,7 +2,8 @@ nav{
   position: fixed;
   z-index: 2;
   top: 0.3em;
-  left: 2.5%;
+  left: 50%;
+  transform: translateX(-50%);
   width: 95%;
   padding-inline: 2em;
   display: flex;
