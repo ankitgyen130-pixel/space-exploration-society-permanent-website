@@ -11,19 +11,17 @@ import Members from "./teams/members.jsx";
 
 function Hero(){
     return (
-        <>
+        <div id="hero">
             <Canvas style={{
-                height:"100vh",
-                width: "100vw",
+                height:"100%",
+                width: "100%",
                 position: "fixed",
                 top:0,
                 left:0,
                 zIndex: 0
             }}>
-                <Mesh />
+            <Mesh />
             </Canvas>
-
-
              {/* section ids are used in gsap timeline in mesh.jsx */}
             <Navbar />
             <div id="contents">
@@ -31,14 +29,12 @@ function Hero(){
                     <div id="HOME"><Home /></div>
                 </section>
 
-
                 <section id="section-2">
                     <div id="ABOUT">
                         <Divisions />
                         <Join />
                     </div>
                 </section>
-
 
                 <section id="section-3">
                     <div id="EVENTS"><Event_list /></div>
@@ -53,7 +49,7 @@ function Hero(){
                     <div id="CONTACT"><Links /></div>
                 </section>
             </div>
-        </>
+        </div>
     )
 }
 export default Hero

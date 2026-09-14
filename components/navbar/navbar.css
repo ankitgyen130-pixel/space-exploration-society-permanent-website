@@ -1,11 +1,11 @@
 nav{
   position: fixed;
   z-index: 2;
-  top: 0.3em;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 95%;
-  padding-inline: 2em;
+  top: 8px;
+  left: 5vw;
+  right: 5vw;
+  width: 90vw;
+  padding: 0.5rem 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -15,6 +15,7 @@ nav{
   border-bottom: 1px solid rgba(255, 255, 255, 0.134);
   border-right: 1px solid rgba(255, 255, 255, 0.134);
   box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.159);
+  background-color: rgb(7, 222, 0);
   backdrop-filter: blur(20px);
 
   img{
@@ -45,7 +46,6 @@ nav{
 
 @media (max-width: 800px) {
     nav {
-        max-width: 90%;
         flex-direction: row;
         align-items: center;
         img {

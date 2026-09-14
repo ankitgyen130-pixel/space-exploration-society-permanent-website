@@ -24,7 +24,7 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.134);
     border-right: 1px solid rgba(255, 255, 255, 0.134);
       h1{
-        font-size: 3.5em;
+        font-size: clamp(1.5rem, 8vw, 3.5rem);
         font-weight: 400;
         color: #ffc955;
         line-height: 1.2;
