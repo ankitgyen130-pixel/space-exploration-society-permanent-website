@@ -21,12 +21,12 @@
   }
     #core-members{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
         gap: 1em;
         list-style-type: none;
     }
     .member-card{
-        width: 180px;
+        width: 160px;
         height: 250px;
         text-align: center;
         backdrop-filter: blur(20px);
