@@ -60,7 +60,7 @@ function Footer(){
                     <p>
                         Space Exploration Society,<br/>
                         Indian Institute of Technology Bhilai,<br />
-                        email: <a href="ses@iitbhilai.ac.in">ses@iitbhilai.ac.in</a>
+                        email: <a href="ses@iitbhilai.ac.in">ses@iitbhilai.ac.in</a><br />
                         Fenil Devganiya: 8160052238<br />
                         Ishaan Shukla: 9115257159
                     </p>
