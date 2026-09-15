@@ -1,6 +1,6 @@
 const astro_events = [
     {
-        date: "2-3rd week of August 2026",
+        date: "August'26",
         title: "Society Introduction",
         description: [
             "Introduction to the Astronomy Society and its vision, objectives, and activities",
@@ -12,7 +12,7 @@ const astro_events = [
     },
 
     {
-        date: "August 2026",
+        date: "August'26",
         title: "Telescope Sessions",
         description: [
             "Open-to-all telescope sessions for students to explore and observe the night sky",
@@ -25,7 +25,7 @@ const astro_events = [
     },
 
     {
-        date: "2-3rd week of September 2026",
+        date: "September'26",
         title: "Introduction to Astronomy — Stars",
         description: [
             "Introduction to astronomy and the fundamental concepts used to study stars and celestial objects",
@@ -39,7 +39,7 @@ const astro_events = [
     },
 
     {
-        date: "1st week of September 2026",
+        date: "September'26",
         title: "Introduction to Python",
         description: [
             "Introduction to Python programming and the fundamental concepts required for scientific applications",
@@ -53,7 +53,7 @@ const astro_events = [
     },
 
     {
-        date: "1st week of October 2026",
+        date: "October'26",
         title: "Introduction to Astronomy — Galaxies",
         description: [
             "Introduction to galaxies and their role as large-scale structures in the universe",

@@ -1,6 +1,6 @@
 const aero_events = [
     {
-        date: "Aug 29, Sept 11",
+        date: "August-September'26",
         title: "Introductory Sessions",
         description: [
             "Introduction to UAVs and the fundamentals of aerial robotics",
@@ -12,7 +12,7 @@ const aero_events = [
     },
 
     {
-        date: "Oct 3, Oct 31, Nov 7",
+        date: "October-November'26",
         title: "Airframe Design & CAD",
         description: [
             "Understanding UAV mechanics, aerodynamics, and structural design",
@@ -26,7 +26,7 @@ const aero_events = [
     },
 
     {
-        date: "Jan 15, Jan 29, 2nd week of Feb",
+        date: "January-February'27",
         title: "Electronics",
         description: [
             "Understanding UAV power systems, batteries, voltage regulation, and power distribution",
@@ -39,7 +39,7 @@ const aero_events = [
     },
 
     {
-        date: "March 13, Apr 3",
+        date: "March-April'27",
         title: "ROS2 & Simulation",
         description: [
             "Working with Linux and developing a foundation for robotic systems",
@@ -53,7 +53,7 @@ const aero_events = [
     },
 
     {
-        date: "Apr 16",
+        date: "April'27",
         title: "Computer Vision & AI",
         description: [
             "Learning object detection techniques for identifying objects from aerial imagery",

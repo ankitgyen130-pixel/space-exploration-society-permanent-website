@@ -1,93 +1,93 @@
 const astro_secretary={
     "name": "Fenil Devganiya",
-    "photo": "/images/Core_Members/Fenil Devganiya..png",
-    "domain": "Secretary of Astronomy and Astrophysics Department"
+    "photo": "/images/Core_Members/Fenil Devganiya..webp",
+    "domain": "Secretary of Astronomy & Astrophysics Department"
 }
 const aero_secretary={
     "name": "Ishaan Shukla",
-    "photo": "/images/Core_Members/Ishaan Shukla.png",
-    "domain": "Secretary of Aeromodeling Department"
+    "photo": "/images/Core_Members/Ishaan Shukla.webp",
+    "domain": "Secretary of Aerospace & Aeromodeling Department"
 }
 const core = [
     {
         "name": "Abdul Karim",
-        "photo": "/images/Core_Members/Abdul Karim.png",
-        "domain": "Astronomy and Astrophysics"
+        "photo": "/images/Core_Members/Abdul Karim.webp",
+        "domain": "Astronomy & Astrophysics"
     },
     {
         "name": "Darsh Nandu",
-        "photo": "/images/Core_Members/Darsh Nandu.png",
-        "domain": "Astronomy and Astrophysics"
+        "photo": "/images/Core_Members/Darsh Nandu.webp",
+        "domain": "Astronomy & Astrophysics"
     },
     {
         "name": "Ananya Ashtaputre",
-        "photo": "/images/Core_Members/Ananya Ashtaputre.png",
-        "domain": "Aeromodeling"
+        "photo": "/images/Core_Members/Ananya Ashtaputre.webp",
+        "domain": "Aerospace & Aeromodeling"
     },
     {
         "name": "Ankit Gyen",
-        "photo": "/images/Core_Members/Ankit Gyen.png",
-        "domain": "Astronomy and Astrophysics"
+        "photo": "/images/Core_Members/Ankit Gyen.webp",
+        "domain": "Astronomy & Astrophysics"
     },
     {
         "name": "Arjun Kumar",
-        "photo": "/images/Core_Members/Arjun Kumar.png",
-        "domain": "Astronomy and Astrophysics"
+        "photo": "/images/Core_Members/Arjun Kumar.webp",
+        "domain": "Astronomy & Astrophysics"
     },
     {
         "name": "Arpit Pandey",
-        "photo": "/images/Core_Members/Arpit Pandey.png",
-        "domain": "Aeromodeling"
+        "photo": "/images/Core_Members/Arpit Pandey.webp",
+        "domain": "Aerospace & Aeromodeling"
     },
     {
         "name": "Nagulapalli Dheeraj",
-        "photo": "/images/Core_Members/Nagulapalli Dheeraj.png",
-        "domain": "Astronomy and Astrophysics"
+        "photo": "/images/Core_Members/Nagulapalli Dheeraj.webp",
+        "domain": "Astronomy & Astrophysics"
     },
     {
         "name": "Kaira Manideep Gaud",
-        "photo": "/images/Core_Members/Kaira Manideep Gaud.png",
-        "domain": "Aeromodeling"
+        "photo": "/images/Core_Members/Kaira Manideep Gaud.webp",
+        "domain": "Aerospace & Aeromodeling"
     },
     {
         "name": "Bavirisetti Jayavardhan",
-        "photo": "/images/Core_Members/Bavirisetti Jayavardhan.png",
-        "domain": "Aeromodeling"
+        "photo": "/images/Core_Members/Bavirisetti Jayavardhan.webp",
+        "domain": "Aerospace & Aeromodeling"
     },
     {
         "name": "Mansu Khute",
-        "photo": "/images/Core_Members/Mansu Khute.png",
-        "domain": "Astronomy and Astrophysics"
+        "photo": "/images/Core_Members/Mansu Khute.webp",
+        "domain": "Astronomy & Astrophysics"
     },
     {
         "name": "Navanil Ghosh",
-        "photo": "/images/Core_Members/Navanil Ghosh.png",
-        "domain": "Astronomy and Astrophysics"
+        "photo": "/images/Core_Members/Navanil Ghosh.webp",
+        "domain": "Astronomy & Astrophysics"
     },
     {
         "name": "Pratyush Srivastava",
-        "photo": "/images/Core_Members/Pratyush Srivastava.png",
-        "domain": "Astronomy and Astrophysics"
+        "photo": "/images/Core_Members/Pratyush Srivastava.webp",
+        "domain": "Aerospace & Aeromodeling"
     },
     {
         "name": "Sonali Singh",
-        "photo": "/images/Core_Members/Sonali Singh.png",
-        "domain": "Astronomy and Astrophysics"
+        "photo": "/images/Core_Members/Sonali Singh.webp",
+        "domain": "Astronomy & Astrophysics"
     },
     {
         "name": "Shalvi Kumar",
-        "photo": "/images/Core_Members/Shalvi Kumar.png",
-        "domain": "Aeromodeling"
+        "photo": "/images/Core_Members/Shalvi Kumar.webp",
+        "domain": "Aerospace & Aeromodeling"
     },
     {
-        "name": "Arjav Jain",
-        "photo": "/images/Core_Members/Arjav Jain.png",
-        "domain": "Aeromodeling"
+        "name": "Aarjav Jain",
+        "photo": "/images/Core_Members/Aarjav Jain.webp",
+        "domain": "Aerospace & Aeromodeling"
     },
     {
-        "name": "Pavan Teja",
-        "photo": "/images/Core_Members/Pavan Teja.png ",
-        "domain": "Aeromodeling"
+        "name": "Pawan Teja",
+        "photo": "/images/Core_Members/Pawan Teja.webp ",
+        "domain": "Aerospace & Aeromodeling"
     }
 ]
 export default core;

@@ -8,6 +8,7 @@ import '../components/links/links.css'
 import '../components/events/events.css'
 import '../components/projects/projects.css'
 import '../components/teams/members.css'
+import '../components/footer/footer.css'
 import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(

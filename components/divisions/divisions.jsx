@@ -16,7 +16,7 @@ function Divisions(){
                             Aeromodelling & Aerospace
                         </h1>
                         <p>
-                            We engineer rockets, rovers, drones and planes — turning principles of fluid dynamics, propulsion, and electronics into functional aerospace builds.
+                            We specialize in the development of autonomous aerial systems — working with fluid dynamics, electronics, AI, and robotic autonomy to build systems with purpose.
                         </p>
                 </div>
             </div>

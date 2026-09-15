@@ -1,23 +1,23 @@
 const astro_projects = [
   {
-    date: "November 2026 (3 weeks)",
-    title: "Real-Time Solar Flare Warning Engine"
-  },
-  {
-    date: "September 2026 (Approx. 1 week)",
+    date: "September'26",
     title: "Exoplanet Detection from Light Curves"
   },
   {
-    date: "January 2027 (Approx. 1 week)",
+    date: "October'26",
+    title: "Blurred Images to Sharp Images Using Telescope Data"
+  },
+  {
+    date: "November'26",
+    title: "Real-Time Solar Flare Warning Engine"
+  },
+  {
+    date: "January'27",
     title: "Galaxy Morphology Classification"
   },
   {
-    date: "February 2027",
+    date: "February'27",
     title: "Photometric Redshift Estimation"
-  },
-  {
-    date: "October 2026 (2 weeks)",
-    title: "Blurred Images to Sharp Images Using Telescope Data"
   },
   {
     date: "Throughout the Tenure",

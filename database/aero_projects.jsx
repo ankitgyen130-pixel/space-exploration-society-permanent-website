@@ -1,19 +1,15 @@
 const aero_projects = [
   {
-    date: "July 29, 2026 - August 20, 2026",
-    title: "Core Flight Platform Development"
+    date: "August'26-January'27",
+    title: "Autonomous Surveillance Hexacopter"
   },
   {
-    date: "August 20, 2026 - August 30, 2026",
-    title: "Integrating Telemetry"
+    date: "October-November'26",
+    title: "Precision Landing drone"
   },
   {
-    date: "September 1, 2026 - September 30, 2026",
-    title: "Sending Live Video Feed Through FPV Camera"
+    date: "December'26-March'27",
+    title: "Trainer RC plane"
   },
-  {
-    date: "October 1, 2026 - December 31, 2026",
-    title: "Attaching Digital Camera and Companion Computer (NVIDIA Jetson Nano)"
-  }
 ];
 export default aero_projects

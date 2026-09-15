@@ -8,6 +8,7 @@ import Projects from "./projects/projects_list.jsx";
 import Links from "./links/links.jsx";
 import Join from "./links/join.jsx";
 import Members from "./teams/members.jsx";
+import Footer from "./footer/footer.jsx";
 
 function Hero(){
     return (
@@ -46,8 +47,8 @@ function Hero(){
 
                 <section id="section-5">
                     <div id="TEAM"><Members /></div>
-                    <div id="CONTACT"><Links /></div>
                 </section>
+                <footer><Footer /></footer>
             </div>
         </div>
     )
