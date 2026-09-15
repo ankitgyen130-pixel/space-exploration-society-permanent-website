@@ -11,7 +11,7 @@ function Footer(){
                         <h3>Quick Links</h3>
                         <ul>
                             <li><a href="https://www.iitbhilai.ac.in/">Indian Institute of Technology Bhilai</a></li>
-                            <li><a href="https://www.instagram.com/p/DQhb5PTk62U/">ISAAC - Instagram Profile</a></li>
+                            <li><a href="https://www.instagram.com/scitech_iitbh?stkn=amlwa29nY2VhMXly">SciTech - Instagram Profile</a></li>
                         </ul>
                         <br/>
                     </div>
@@ -57,9 +57,13 @@ function Footer(){
                 </div>
                 <div id="contact_us">
                     <h3>Contact Us</h3>
-                    <ul>
-                        <li>Space Exploration Society,<br/>Indian Institute of Technology Bhilai,<br />Kutelabhata, Durg, Chhattisgarh, India,<br />email: <a href="ses@iitbhilai.ac.in">ses@iitbhilai.ac.in</a></li>
-                    </ul>
+                    <p>
+                        Space Exploration Society,<br/>
+                        Indian Institute of Technology Bhilai,<br />
+                        email: <a href="ses@iitbhilai.ac.in">ses@iitbhilai.ac.in</a>
+                        Fenil Devganiya: 8160052238<br />
+                        Ishaan Shukla: 9115257159
+                    </p>
                 </div>
             </div>
             <hr/>

@@ -80,8 +80,8 @@ const core = [
         "domain": "Aerospace & Aeromodeling"
     },
     {
-        "name": "Aarjav Jain",
-        "photo": "/images/Core_Members/Aarjav Jain.webp",
+        "name": "Arjav Jain",
+        "photo": "/images/Core_Members/Arjav Jain.webp",
         "domain": "Aerospace & Aeromodeling"
     },
     {

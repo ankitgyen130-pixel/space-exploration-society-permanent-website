@@ -47,8 +47,8 @@ function Hero(){
 
                 <section id="section-5">
                     <div id="TEAM"><Members /></div>
+                    <footer id="CONTACT"><Footer /></footer>
                 </section>
-                <footer><Footer /></footer>
             </div>
         </div>
     )

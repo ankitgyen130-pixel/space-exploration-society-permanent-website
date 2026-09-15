@@ -21,6 +21,7 @@
   }
     #core-members{
         display: grid;
+        justify-items: center;
         grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
         gap: 1em;
         list-style-type: none;
