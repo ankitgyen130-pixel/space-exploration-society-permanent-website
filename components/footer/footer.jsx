@@ -62,7 +62,8 @@ function Footer(){
                         Indian Institute of Technology Bhilai,<br />
                         email: <a href="ses@iitbhilai.ac.in">ses@iitbhilai.ac.in</a><br />
                         Fenil Devganiya: 8160052238<br />
-                        Ishaan Shukla: 9115257159
+                        Ishaan Shukla: 9115257159<br />
+                        Ankit Gyen: 8910134533
                     </p>
                 </div>
             </div>
